@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="597PLbgvshBigxVSo_qW">
+    <mxGraphModel dx="2593" dy="1271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-1" value="Customer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="732" as="geometry" />
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-2" value="LoginPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="732" as="geometry" />
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-3" value="MenuPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="150" height="732" as="geometry" />
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-4" value="OrderService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="150" height="732" as="geometry" />
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-5" value="OrderDatabase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="820" y="20" width="150" height="732" as="geometry" />
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-6" value="PaymentGateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="20" width="150" height="732" as="geometry" />
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-7" value="เข้าสู่ระบบ" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-1" target="CPS_YivVkm1s0_l5zBVf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-8" value="แสดงผลสำเร็จ" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-2" target="CPS_YivVkm1s0_l5zBVf-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-9" value="เรียกดูเมนู" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-1" target="CPS_YivVkm1s0_l5zBVf-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-10" value="แสดงเมนู" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-3" target="CPS_YivVkm1s0_l5zBVf-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-11" value="เลือกเมนูและยืนยันออเดอร์" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-1" target="CPS_YivVkm1s0_l5zBVf-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-12" value="ส่งข้อมูลออเดอร์" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-3" target="CPS_YivVkm1s0_l5zBVf-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-13" value="บันทึกออเดอร์" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-4" target="CPS_YivVkm1s0_l5zBVf-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="804" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-14" value="บันทึกสำเร็จ" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-5" target="CPS_YivVkm1s0_l5zBVf-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-15" value="เรียกดำเนินการชำระเงิน" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-4" target="CPS_YivVkm1s0_l5zBVf-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="904" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-16" value="ยืนยันการชำระเงิน" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-6" target="CPS_YivVkm1s0_l5zBVf-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="907" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPS_YivVkm1s0_l5zBVf-17" value="แสดงสถานะคำสั่งซื้อ" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="CPS_YivVkm1s0_l5zBVf-4" target="CPS_YivVkm1s0_l5zBVf-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="407" y="647" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
